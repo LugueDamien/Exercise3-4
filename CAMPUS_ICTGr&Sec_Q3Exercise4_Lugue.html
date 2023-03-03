@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <title>CAMPUS_ICT9Ruby_Q3Exercise4_Lugue.html</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        td {
+            color: white;
+        }
+        th {
+            color: white;
+        }
+        input {
+            border: 2px solid black;
+        border-radius: 4px;
+                }
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <th><li class="nav-item"><a class="nav-link" href="#">Home</a></li></th>
+            <th><li class="nav-item"><a class="nav-link" href="#">More</a></li></th>
+            <th><li class="nav-item"><a class="nav-link"href="#">Contact</a></li></th>
+        </ul>
+        </nav>
+
+
+    <table class="table">
+        <tr>
+            <th class="bg-success">IMAGES</th>
+            <th class="bg-info">DESCRIPTION</th>
+            <th class="bg-info">NET WORTH</th>
+        </tr>
+        <tr class="bg-secondary">
+            <td><img src="https://hips.hearstapps.com/hmg-prod/images/michael-jordan.jpg" width="100" height="100"></td>
+            <td>Michael Jordan is widely considered to be the greatest basketball player of all time. In fact, he's arguably one of the greatest athletes of all time. He was a four-time gold medalist with USA Basketball, including winning two Olympic golds, and was twice named the USA Basketball Male Athlete of the Year.</td>
+            <td>$1.7 billion</td>
+        </tr>
+        <tr class="bg-secondary">
+            <td><img src="https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk1NjI1MDQ2ODA1NjUyODc3/lebron-james-6-2.jpg" width="100" height="100"></td>
+            <td> LeBron James is the NBA's all-time leading scorer and ranks fourth in career assists. He has won four NBA championships on three teams, with the Cleveland Cavaliers, Miami Heat, and Los Angeles Lakers. James has led his teams to ten NBA Finals, including eight consecutively.</td>
+            <td>$1.2 billion</td>
+        </tr>
+        <tr class="bg-secondary">
+            <td><img src="https://file1.closermag.fr/var/closermag/storage/images/bio-people/biographie-cristiano-ronaldo-112519/821083-1-fre-FR/Cristiano-Ronaldo.jpg?alias=exact1024x768_l" width="100" height="100"></td>
+            <td>Ronaldo was a formidable athlete on the pitch. Originally a right-winger, he developed into a forward with a free-reined attacking style. He was able to mesmerize opponents with a sleight of foot that made sufficient space for openings in opposing defenses.</td>
+            <td>$490 million</td>
+        </tr>
+        <tr class="bg-secondary">
+            <td><img src="https://cdn.vox-cdn.com/thumbor/WaLcIbEyOHcrRO8TEs7OLYAk9Pk=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/24420367/1454299227.jpg" width="100" height="100"></td>
+            <td>Kevin Durant is an American professional basketball player who won the 2013–14 National Basketball Association (NBA) Most Valuable Player (MVP) award, establishing himself as one of the best players of his generation while only in his early 20s.</td>
+            <td>$200 million</td>
+        </tr>
+    </table>
+    <center>
+    <form class="form-group">
+    <div class="row bg-secondary">
+        <div class="col-xl-2 bg-info">
+        <td>Sign up!</td>
+        <br>
+        <input type="text" placeholder="Enter name">
+        <br>
+        <input type="text" placeholder="Enter email">
+        <br>
+        <td>What's your favorite sport?</td>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input">Basketball
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input">Soccer
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input">Volleyball
+            </label>
+        </div>
+            <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input">Hockey
+            </label>
+        </div>
+         <td>Whos your favorite?</td>
+         <br>
+        <select class="form-control">
+            <option>Michael</option>
+            <option>LeBron</option>
+            <option>Ronaldo</option>
+            <option>Kevin</option>
+        </select><br>
+        <input type="submit" value="Send" class="btn btn-success">
+        <input type="reset" value="Clear" class="btn btn-danger">
+    </div>
+    </form>
+    </center>
+</body>
+</html>
